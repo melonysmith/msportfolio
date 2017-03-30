@@ -1,9 +1,10 @@
 <?php session_start(); ?>
 
 <!DOCTYPE html>
+<html lang='en-us'>
 
 	<head>
-		<title>Melony Smith Portfolio:: Web Design &amp; Development</title>
+		title>Melony Smith Portfolio :: Web Design &amp; Development</title>
 		<link rel='stylesheet' type='text/css' href='css/style.css' />
 	</head>
 

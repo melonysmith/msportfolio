@@ -55,7 +55,7 @@
 							<!-- header and info -->
 							<h1>Melony Smith</h1>
 							<p>I am a soon-to-be graduate of Full Sail University with a Bachelor of
-					      Science degreee in Web Design &amp; Development. This is just a little space for me
+					      Science degree in Web Design &amp; Development. This is just a little space for me
 					      to showcase some of my projects. Feel free to contact me with any inquries or
 					      comments you may have!
 				      </p>
@@ -112,7 +112,7 @@
 									<p>I am a wife and a mother of four boys. I currently reside in Nebraska with plans
 							      to relocate to Oregon. Music means more to me than I could ever express. I am drawn to
 							      anything with lyrics that speak to me. What else do I do? Well, I think of myself as an
-							      old soul. I an a homebody who loves to cook, bake, and crochet.
+							      old soul. I am a homebody who loves to cook, bake, and crochet.
 						      </p>
 								</div>
 							</div>
@@ -233,7 +233,7 @@
 							echo $success;
 							}
 						?>
-							<form action="contact.php" method="post">
+							<form action="contact.php" method="post" />
 
 
 

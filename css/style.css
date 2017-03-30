@@ -1,20 +1,27 @@
 /* body */
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
 }
 p,
 input,
 textarea {
     font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
 }
 h2,
 h3 {
     text-transform: uppercase;
     color: #EA8E86;
+    font-weight: bold;
 }
-/* section */
+p {
+    color: #292828;
+}
+label {
+  font-size: 1.5em;
+}
 
+/* section */
 section {
     background-color: #FAFAF0;
     padding: 80px 0;
@@ -26,17 +33,15 @@ section header {
     text-align: center;
     margin-bottom: 80px;
 }
-p {
-    color: #292828;
-}
+
+/* address span */
 address {
-    margin-bottom: 100px;
-    padding-top: 25px;
+    margin-bottom: 70px;
+    padding-top: 40px;
 }
 address span {
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 20px;
     display: block;
     text-transform: uppercase;
     color: #EA8E86;
@@ -60,6 +65,7 @@ address span {
     border-width: 2px;
     color: #6AC9C5;
     border-color: #6AC9C5;
+    font-size: 2em;
 }
 .btn-primary:hover,
 .btn-primary:focus {
@@ -91,8 +97,8 @@ a:focus {
     position: absolute;
     right: 15px;
     top: 15px;
-    font-size: 32px;
     color: #6AC9C5;
+    font-size: 3em;
 }
 .menu {
     width: 350px;
@@ -105,6 +111,7 @@ a:focus {
     z-index: 100;
     text-align: center;
     transition: right 0.4s;
+    font-size: 1.5em;
 }
 .menu.nav-expanded {
     right: 0;
@@ -173,6 +180,7 @@ a:focus {
 }
 .service-item > p {
     text-align: justify;
+    font-size: 1.5em;
 }
 .service-item .icon {
     border: 2px #6AC9C5 solid;
@@ -185,8 +193,8 @@ a:focus {
 }
 .service-item .icon i {
     line-height: 110px;
-    font-size: 45px;
     color: #6AC9C5;
+    font-size: 4em;
 }
 .service-item .icon:hover {
     background-color: #292828;
@@ -217,7 +225,6 @@ a:focus {
     top: 10px;
     width: 20px;
     height: 20px;
-    font-size: 20px;
     color: #292828;
 }
 .portfolio-item {
@@ -252,7 +259,6 @@ a:focus {
     margin-bottom: 10px;
     text-align: center;
     line-height: 40px;
-    font-size: 32px;
 }
 .portfolio-item:hover .mask {
     opacity: 1;
@@ -287,7 +293,7 @@ form {
 }
 .form-control {
     padding: 17px 25px;
-    font-size: 16px;
+    font-size: 1em;
     height: auto;
     border-radius: 0;
     background: #292828;
