@@ -1,5 +1,4 @@
 /* body */
-
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -31,7 +30,8 @@ p {
     color: #292828;
 }
 address {
-    margin-bottom: 125px;
+    margin-bottom: 100px;
+    padding-top: 25px;
 }
 address span {
     margin-top: 0;
@@ -263,7 +263,25 @@ a:focus {
 form {
     margin-bottom: 70px;
 }
-.form-group .btn {
+.submit {
+  padding: 15px 30px;
+  border-radius: 0;
+  -webkit-transition: border-color 0.4s, color 0.4s;
+  transition: border-color 0.4s, color 0.4s;
+  background: #292828;
+  border-width: 2px;
+  color: #6AC9C5;
+  border-color: #6AC9C5;
+  width: 100%;
+  text-transform: uppercase;
+}
+.submit:hover,
+.submit:focus {
+  background: #292828;
+  color: #EA8E86;
+  border-color: #6AC9C5;
+}
+.form-group .submit {
     width: 100%;
     text-transform: uppercase;
 }
@@ -280,7 +298,9 @@ form {
     transition: all 0.5s;
 }
 .form-control:focus {
-    border: 2px solid #EA8E86;
+    border: 2px solid #6AC9C5;
+    background-color:#292828;
+    color: #EA8E86;
     -webkit-box-shadow: none;
     box-shadow: none;
 }

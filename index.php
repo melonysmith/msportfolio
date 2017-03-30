@@ -222,41 +222,50 @@
 					    even just a quick comment or hello, please don't hesitate to get in touch with me!
 				      </p>
 						</header>
+
+
+
+
+						<?php
+							if (!empty($error)) {
+							echo '<p class="error"><strong>Your message was NOT sent<br/> The following error(s) returned:</strong><br/>' . $error . '</p>';
+							} elseif (!empty($success)) {
+							echo $success;
+							}
+						?>
+							<form action="contact.php" method="post">
+
+
+
+
+
 						<!-- start form -->
 						<div class='row'>
 							<div class='col-md-8'>
 								<form class='row'>
 									<!-- form: visitor name -->
 									<div class='form-group col-md-6'>
-										<p>Your Name:</p>
-										<input name='name' type='text' placeholder='Name' class='form-control' />
+										<label>Your Name:</label>
+										<input type='text' name='name' class='form-control' value='<?php if($_POST['name']) { echo $_POST['name']; } ?>' />
 									</div>
 									<!-- form: visitor email -->
 									<div class='form-group col-md-6'>
-										<p>Your Email Address:</p>
-										<input name='mail' type='email' placeholder='Email' class='form-control' />
-									</div>
-									<!-- form: visitor subject -->
-									<div class='form-group col-md-12'>
-										<p>Subject of Your Message:</p>
-										<input name='subject' type='text' placeholder='Subject' class='form-control' />
+										<label>Your Email Address:</label>
+										<input type='text' name='email' class='form-control' value='<?php if($_POST['email']) { echo $_POST['email']; } ?>' />
 									</div>
 									<!-- form: visitor message -->
 									<div class='form-group col-md-12'>
-										<p>Your Message:</p>
-										<textarea name='message' class='form-control' rows='10' placeholder='Message'></textarea>
+										<label>Your Message:</label>
+										<textarea name='message' class='form-control' rows='10' cols='20'><?php if($_POST['message']) { echo $_POST['message']; } ?></textarea>
 									</div>
 									<!-- form: send button -->
 									<div class='form-group col-md-12'>
-										<button class='btn btn-lg btn-primary'>Send</button>
+										<input type='submit' class='submit' name='submit' value='Send Your Message' />
 									</div>
 								</form>
 							</div>
 							<!-- start side info -->
 							<div class='col-md-3 col-md-offset-1'>
-								<br />
-								<br />
-								<br />
 								<!-- address: location -->
 								<address>
 									<span>Location</span>
