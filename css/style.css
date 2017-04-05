@@ -1,5 +1,6 @@
 /* body */
 body {
+    margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 p,
@@ -18,7 +19,7 @@ p {
     color: #292828;
 }
 label {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 /* section */
@@ -49,6 +50,7 @@ address span {
 
 .top {
   text-align: right;
+  font-size: 2em;
   padding-right: 50px;
   padding-bottom: 50px;
 }
@@ -94,11 +96,12 @@ a:focus {
 
 /* menu */
 .menu-toggle {
-    position: absolute;
-    right: 15px;
-    top: 15px;
+  /*absolute*/
+    position: fixed;
+    right: 20px;
+    top: 5px;
     color: #6AC9C5;
-    font-size: 3em;
+    font-size: 4em;
 }
 .menu {
     width: 350px;
@@ -172,6 +175,7 @@ a:focus {
     top: 25%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+    font-size: 1.5em;
 }
 
 /* design, develop, & more */
@@ -332,7 +336,7 @@ ul.social-icons > li {
     border: 2px #6AC9C5 solid;
     background-color: #292828;
     float: left;
-    margin-right: 25px;
+    margin-right: 40px;
     margin-bottom: 20px;
 }
 ul.social-icons > li > a {
@@ -351,19 +355,59 @@ ul.social-icons > li > a:hover {
 }
 
 /* media queries */
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 490px) {
     .header-info {
-        position: relative;
-        margin-top: 55%;
+        position: absolute;
+        margin-top: 45%;
+        padding-right: 5%;
+        width: 90%;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
     }
+    .header-info > h1 {
+      letter-spacing: 2px;
+      font-size: 2em;
+    }
+    .header-info > p {
+      font-size: 1.5em;
+    }
+    .service-item > h3 {
+      font-size: 2.75em;
+    }
+    .service-item > p {
+        font-size: 2.5em;
+        text-align: justify;
+    }
+    .portfolio-item > h3 {
+      font-size: 2.75em;
+    }
+    .portfolio-item > p {
+      font-size: 2.5em
+    }
+    p {
+      font-size: 2.5em;
+      text-align: justify;
+    }
+    h2 {
+      font-size: 3em;
+    }
+    h3 {
+      font-size: 2.75em;
+    }
+    address span {
+      font-size: 2.75em;
+    }
+    address span > p {
+      font-size: 2.5em;
+    }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 491px) {
     .header-info {
         position: relative;
         margin-top: 20%;
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
+        -webkit-transform: translateY(-30%);
+        transform: translateY(-30%);
     }
+    .header-info > h1 {
+      margin-top: 10%;
 }

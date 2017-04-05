@@ -54,9 +54,8 @@
 						<div class='header-info'>
 							<!-- header and info -->
 							<h1>Melony Smith</h1>
-							<p>I am a soon-to-be graduate of Full Sail University with a Bachelor of
-					      Science degree in Web Design &amp; Development. This is just a little space for me
-					      to showcase some of my projects. Feel free to contact me with any inquries or
+							<p>Soon-to-be graduate of Full Sail University with a Bachelor of
+					      Science degree in Web Design &amp; Development. Please contact me with any inquries or
 					      comments you may have!
 				      </p>
 							<br />
@@ -119,9 +118,6 @@
 						</div>
 					</div>
 				</section>
-				<div class='top'>
-					<a href='#top'>Back to Top</a>
-				</div>
 				<!-- start portfolio -->
 				<section id='portfolio' class='darker'>
 					<div class='container'>
@@ -209,9 +205,6 @@
 						</div>
 					</div>
 				</section>
-				<div class='top'>
-					<a href='#top'>Back to Top</a>
-				</div>
 				<!-- start contact -->
 				<section id='contact'>
 					<div class='container'>
@@ -289,9 +282,6 @@
 						</div>
 					</div>
 				</section>
-				<div class='top'>
-				  <a href='#top'>Back to Top</a>
-			  </div>
 				<!-- start footer -->
 				<footer>
 					<div class='container'>
