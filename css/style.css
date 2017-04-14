@@ -51,8 +51,6 @@ address span {
 .top {
   text-align: right;
   font-size: 2em;
-  padding-right: 50px;
-  padding-bottom: 50px;
 }
 
 /* button */
@@ -67,7 +65,8 @@ address span {
     border-width: 2px;
     color: #6AC9C5;
     border-color: #6AC9C5;
-    font-size: 2em;
+    font-size: 1em;
+    text-transform: uppercase;
 }
 .btn-primary:hover,
 .btn-primary:focus {
@@ -96,7 +95,6 @@ a:focus {
 
 /* menu */
 .menu-toggle {
-  /*absolute*/
     position: fixed;
     right: 20px;
     top: 5px;
@@ -164,18 +162,22 @@ a:focus {
     color: #FAFAF0;
 }
 .jumbotron .container {
-    margin-top: 10%;
+    margin-top: 75%;
 }
 .jumbotron h1 {
     text-transform: uppercase;
     margin-bottom: 30px;
+    font-size: 2em;
+    color: #EA8E86;
 }
+
 .header-info {
     position: relative;
     top: 25%;
     -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     font-size: 1.5em;
+    color: #6AC9C5;
 }
 
 /* design, develop, & more */
@@ -355,59 +357,13 @@ ul.social-icons > li > a:hover {
 }
 
 /* media queries */
-@media screen and (max-width: 490px) {
-    .header-info {
-        position: absolute;
-        margin-top: 45%;
-        padding-right: 5%;
-        width: 90%;
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-    .header-info > h1 {
-      letter-spacing: 2px;
-      font-size: 2em;
-    }
-    .header-info > p {
-      font-size: 1.5em;
-    }
-    .service-item > h3 {
-      font-size: 2.75em;
-    }
-    .service-item > p {
-        font-size: 2.5em;
-        text-align: justify;
-    }
-    .portfolio-item > h3 {
-      font-size: 2.75em;
-    }
-    .portfolio-item > p {
-      font-size: 2.5em
-    }
-    p {
-      font-size: 2.5em;
-      text-align: justify;
-    }
-    h2 {
-      font-size: 3em;
-    }
-    h3 {
-      font-size: 2.75em;
-    }
-    address span {
-      font-size: 2.75em;
-    }
-    address span > p {
-      font-size: 2.5em;
-    }
+@media screen and (max-width: 734px) and (min-width: 525px) {
+  .jumbotron .container {
+      margin-top: 55%;
+  }
 }
-@media screen and (min-width: 491px) {
-    .header-info {
-        position: relative;
-        margin-top: 20%;
-        -webkit-transform: translateY(-30%);
-        transform: translateY(-30%);
-    }
-    .header-info > h1 {
-      margin-top: 10%;
+@media screen and (min-width: 735px) {
+  .jumbotron .container {
+      margin-top: 25%;
+  }
 }

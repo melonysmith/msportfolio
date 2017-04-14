@@ -12,6 +12,7 @@
 			<link rel='stylesheet' type='text/css' href='css/bootstrap.css' />
 			<link rel='stylesheet' type='text/css' href='css/font-awesome.css' />
 			<link rel='stylesheet' type='text/css' href='css/style.css' />
+
 		</head>
 		<!-- start body -->
 		<body>
@@ -54,6 +55,8 @@
 						<div class='header-info'>
 							<!-- header and info -->
 							<h1>Melony Smith</h1>
+						  <h4>Front End Web Designer and Developer</h4>
+							<br />
 							<p>Soon-to-be graduate of Full Sail University with a Bachelor of
 					      Science degree in Web Design &amp; Development. Please contact me with any inquries or
 					      comments you may have!
@@ -119,6 +122,7 @@
 					</div>
 				</section>
 				<!-- start portfolio -->
+
 				<section id='portfolio' class='darker'>
 					<div class='container'>
 						<!-- header and info -->
@@ -134,7 +138,7 @@
 							<figure class='portfolio-item col-md-4 col-sm-6'>
 								<img class='img-responsive' src='img/projects/project-thumbnail-1.png' alt='' />
 								<figcaption class='mask'>
-									<a href='projects/project-1.html' target='_blank'>
+									<a href='projects/project-1.html'>
 										<i class='glyphicon glyphicon-plus'></i>
 									</a>
 								</figcaption>
@@ -146,7 +150,7 @@
 							<figure class='portfolio-item col-md-4 col-sm-6'>
 								<img class='img-responsive' src='img/projects/project-thumbnail-1.png' alt='' />
 								<figcaption class='mask'>
-									<a href='projects/project-1.html' target='_blank'>
+									<a href='projects/project-1.html'>
 										<i class='glyphicon glyphicon-plus'></i>
 									</a>
 								</figcaption>
@@ -158,7 +162,7 @@
 							<figure class='portfolio-item col-md-4 col-sm-6'>
 								<img class='img-responsive' src='img/projects/project-thumbnail-1.png' alt='' />
 								<figcaption class='mask'>
-									<a href='projects/project-1.html' target='_blank'>
+									<a href='projects/project-1.html'>
 										<i class='glyphicon glyphicon-plus'></i>
 									</a>
 								</figcaption>
@@ -170,7 +174,7 @@
 							<figure class='portfolio-item col-md-4 col-sm-6'>
 								<img class='img-responsive' src='img/projects/project-thumbnail-1.png' alt='' />
 								<figcaption class='mask'>
-									<a href='projects/project-1.html' target='_blank'>
+									<a href='projects/project-1.html'>
 										<i class='glyphicon glyphicon-plus'></i>
 									</a>
 								</figcaption>
@@ -182,7 +186,7 @@
 							<figure class='portfolio-item col-md-4 col-sm-6' >
 								<img class='img-responsive' src='img/projects/project-thumbnail-1.png' alt='' />
 								<figcaption class='mask'>
-									<a href='projects/project-1.html' target='_blank'>
+									<a href='projects/project-1.html'>
 										<i class='glyphicon glyphicon-plus'></i>
 									</a>
 								</figcaption>
@@ -194,7 +198,7 @@
 							<figure class='portfolio-item col-md-4 col-sm-6'>
 								<img class='img-responsive' src='img/projects/project-thumbnail-1.png' alt='' />
 								<figcaption class='mask'>
-									<a href='projects/project-1.html' target='_blank'>
+									<a href='projects/project-1.html'>
 										<i class='glyphicon glyphicon-plus'></i>
 									</a>
 								</figcaption>
@@ -216,9 +220,6 @@
 				      </p>
 						</header>
 
-
-
-
 						<?php
 							if (!empty($error)) {
 							echo '<p class="error"><strong>Your message was NOT sent<br/> The following error(s) returned:</strong><br/>' . $error . '</p>';
@@ -227,10 +228,6 @@
 							}
 						?>
 							<form action="contact.php" method="post" />
-
-
-
-
 
 						<!-- start form -->
 						<div class='row'>
@@ -301,7 +298,7 @@
 										</a>
 									</li>
 									<li>
-										<a href='https://www.facebook.com/melony.smith' target='_blank'>
+										<a href='https://www.facebook.com/msdotnet' target='_blank'>
 											<i class='fa fa-facebook'></i>
 										</a>
 									</li>
@@ -336,7 +333,7 @@
 										</a>
 									</li>
 									<li>
-										<a href='https://twitter.com/melonysmith' target='_blank'>
+										<a href='https://twitter.com/melsdotnet' target='_blank'>
 											<i class='fa fa-twitter'></i>
 										</a>
 									</li>
@@ -354,5 +351,16 @@
 				<script type='text/javascript' src='js/smooth-scroll.js'></script>
 				<!-- project gallery -->
 				<script type='text/javascript' src='js/app.js'></script>
+
+				<script>
+				  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+				  ga('create', 'UA-97184369-1', 'auto');
+				  ga('send', 'pageview');
+				</script>
+
 			</body>
 		</html>

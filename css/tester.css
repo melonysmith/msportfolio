@@ -1,0 +1,118 @@
+/*
+essential styles:
+makes the slideshow work
+*/
+#slides{
+    position: relative;
+    height: 500px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing{
+    opacity: 1;
+    z-index: 2;
+}
+
+
+.controls{
+    display: none;
+}
+
+
+/*
+non-essential styles:
+just for appearance
+*/
+
+.slide{
+    font-size: 25px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #292828;
+    color: #FAFAF0;
+    background-size: cover;
+}
+
+
+.slide:nth-of-type(1){
+    background-color: #6AC9C5;
+    background-image: url('http://heartandsoulimages.com/msportfolio/img/projects/heart-and-soul.png');
+    width: 100%;
+}
+
+
+.slide:nth-of-type(2){
+    background-color: #EA8E86;
+    background-image: url('http://heartandsoulimages.com/msportfolio/img/projects/project02.png');
+}
+
+
+.slide:nth-of-type(3){
+    background-color: #292828;
+    background-image: url('http://heartandsoulimages.com/msportfolio/img/projects/project03.png');
+}
+
+.slide:nth-of-type(4){
+    background-color: #6AC9C5;
+    background-image: url('http://heartandsoulimages.com/msportfolio/img/projects/project04.png');
+}
+
+
+.slide:nth-of-type(5){
+    background-color: #EA8E86;
+    background-image: url('http://heartandsoulimages.com/msportfolio/img/projects/project05.png');
+}
+
+
+.slide:nth-of-type(6){
+    background-color: #292828;
+    background-image: url('http://heartandsoulimages.com/msportfolio/img/projects/project06.png');
+}
+
+.controls{
+  background: #292828;
+  color: #6AC9C5;
+  padding: 20px -8px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: help;
+  border: 2px solid #FAFAF0;
+  margin: 10px 0px 0px 10px;
+  width: 70px;
+  opacity: .5;
+}
+
+.controls:hover,
+.controls:focus{
+  color: #EA8E86;
+  border: 2px solid #292828;
+  background: #FAFAF0;
+}
+
+.container{
+  position: relative;
+}
+
+.buttons{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  font-size: 0px;
+}
