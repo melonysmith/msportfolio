@@ -12,6 +12,7 @@
 			<link rel='stylesheet' type='text/css' href='css/bootstrap.css' />
 			<link rel='stylesheet' type='text/css' href='css/font-awesome.css' />
 			<link rel='stylesheet' type='text/css' href='css/style.css' />
+			<link rel='stylesheet' type='text/css' href='css/projects.css' />
 
 		</head>
 		<!-- start body -->
@@ -132,82 +133,22 @@
 								as much information as possible about the project.
 				      </p>
 						</header>
-						<div id='single-project'></div>
-						<div class='row'>
-							<!-- project one -->
-							<figure class='portfolio-item col-md-4 col-sm-6'>
-								<img class='img-responsive' src='img/projects/project-thumbnail-1.png' alt='' />
-								<figcaption class='mask'>
-									<a href='projects/project-1.html'>
-										<i class='glyphicon glyphicon-plus'></i>
-									</a>
-								</figcaption>
-								<h3>Project Name</h3>
-								<p>coming soon...
-					      </p>
-							</figure>
-							<!-- project two -->
-							<figure class='portfolio-item col-md-4 col-sm-6'>
-								<img class='img-responsive' src='img/projects/project-thumbnail-1.png' alt='' />
-								<figcaption class='mask'>
-									<a href='projects/project-1.html'>
-										<i class='glyphicon glyphicon-plus'></i>
-									</a>
-								</figcaption>
-								<h3>Project Name</h3>
-								<p>coming soon...
-					      </p>
-							</figure>
-							<!-- project three -->
-							<figure class='portfolio-item col-md-4 col-sm-6'>
-								<img class='img-responsive' src='img/projects/project-thumbnail-1.png' alt='' />
-								<figcaption class='mask'>
-									<a href='projects/project-1.html'>
-										<i class='glyphicon glyphicon-plus'></i>
-									</a>
-								</figcaption>
-								<h3>Project Name</h3>
-								<p>coming soon...
-					      </p>
-							</figure>
-							<!-- project four -->
-							<figure class='portfolio-item col-md-4 col-sm-6'>
-								<img class='img-responsive' src='img/projects/project-thumbnail-1.png' alt='' />
-								<figcaption class='mask'>
-									<a href='projects/project-1.html'>
-										<i class='glyphicon glyphicon-plus'></i>
-									</a>
-								</figcaption>
-								<h3>Project Name</h3>
-								<p>coming soon...
-					      </p>
-							</figure>
-							<!-- project five -->
-							<figure class='portfolio-item col-md-4 col-sm-6' >
-								<img class='img-responsive' src='img/projects/project-thumbnail-1.png' alt='' />
-								<figcaption class='mask'>
-									<a href='projects/project-1.html'>
-										<i class='glyphicon glyphicon-plus'></i>
-									</a>
-								</figcaption>
-								<h3>Project Name</h3>
-								<p>coming soon...
-					      </p>
-							</figure>
-							<!-- project six -->
-							<figure class='portfolio-item col-md-4 col-sm-6'>
-								<img class='img-responsive' src='img/projects/project-thumbnail-1.png' alt='' />
-								<figcaption class='mask'>
-									<a href='projects/project-1.html'>
-										<i class='glyphicon glyphicon-plus'></i>
-									</a>
-								</figcaption>
-								<h3>Project Name</h3>
-								<p>coming soon...
-					      </p>
-							</figure>
-						</div>
-					</div>
+
+						<div class="gallery" align="center">
+							<div class="thumbnails">
+								<!-- <img onmouseover="preview.src=msdotnet.src" name="msdotnet" src="img/msdotnet.jpg" alt="MelonySmith.net"/> -->
+								<img onmouseover="getElementById('preview').src=getElementById('msdotnet').src" id="msdotnet" src="img/msdotnet.jpg" alt="MelonySmith.net" />
+								<!-- <img onmouseover="preview.src=hasidotcom.src" name="hasidotcom" src="img/hasidotcom.jpg" alt="HeartandSoulImages.com"/> -->
+								<img onmouseover="getElementById('preview').src=getElementById('hasidotcom').src" id="hasidotcom" src="img/hasidotcom.jpg" alt="HeartandSoulImages.com" />
+								<!-- <img onmouseover="preview.src=pcidotcom.src" name="pcidotcom" src="img/pcidotcom.jpg" alt="PlumCrazyImages.com"/> -->
+								<img onmouseover="getElementById('preview').src=getElementById('pcidotcom').src" id="pcidotcom" src="img/pcidotcom.jpg" alt="PlumCrazyImages.com" />
+							</div><br/>
+
+							<div class="preview" align="center">
+								<!-- <img name="preview" src="img/msdotnet.jpg" alt="MelonySmith.net"/> -->
+								<img id="preview" src="img/msdotnet.jpg" alt="MelonySmith.net" />
+							</div>
+
 				</section>
 				<!-- start contact -->
 				<section id='contact'>
@@ -349,8 +290,7 @@
 				<script type='text/javascript' src='js/bootstrap.js'></script>
 				<!-- smooth scroll -->
 				<script type='text/javascript' src='js/smooth-scroll.js'></script>
-				<!-- project gallery -->
-				<script type='text/javascript' src='js/app.js'></script>
+				<script type="text/javascript" src="js/app.js"></script>
 
 				<script>
 				  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
