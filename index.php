@@ -18,6 +18,17 @@
 		</head>
 		<!-- start body -->
 		<body>
+
+			<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+				  var js, fjs = d.getElementsByTagName(s)[0];
+				  if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+				  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=358573637819131";
+				  fjs.parentNode.insertBefore(js, fjs);
+				  }(document, 'script', 'facebook-jssdk'));
+				</script>
+
 			<a name="top"></a>
 			<!-- home -->
 			<div class='jumbotron home home-fullscreen' id='home'>
@@ -51,6 +62,11 @@
 								<a data-scroll href='#contact'>Contact</a>
 							</li>
 						</ul>
+						<div class="fb-like" data-href="https://www.facebook.com/msdotnet/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+						<div class="fb-share-button" data-href="http://melonysmith.net" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmelonysmith.net%2F&amp;src=sdkpreparse">Share</a></div>
+						<br /><br />
+						<a href="https://twitter.com/melsdotnet" class="twitter-follow-button" data-show-count="false">Follow</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+						<a href="http://melonysmith.net" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 					</nav>
 					<!-- main -->
 					<div class='container'>
