@@ -2,10 +2,11 @@
 <html lang='en-us'>
 	<!-- start head -->
 	<head>
-		<meta charset='utf-8'>
+		  <meta charset="utf-8">
+      <title>Melony Smith :: Web Designer and Developer</title>
+      <meta name="description" content="Online portfolio for Web Designer and Developer Melony Smith. Affordable, customized front end web design and development services.">
+      <meta name="keywords" content="website design, website development, front end web, web designer, graphic designer, web development, logo creation, branding">
 			<meta name='viewport' content='width=device-width, initial-scale=1.0' />
-			<!-- title -->
-			<title>Melony Smith Portfolio :: Web Design &amp; Development</title>
 			<!-- font -->
 			<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
 			<!-- CSS -->
@@ -23,7 +24,7 @@
 				<div class='mask'></div>
 				<!-- logo -->
 				<a href='http://www.melonysmith.net' class='logo'>
-					<img src='img/logo.png' alt='Melony Smith Design &amp; Development'>
+					<img src='img/logo.png' alt='Melony Smith Website Design'>
 					</a>
 					<!-- hamburger -->
 					<a href='' class='menu-toggle' id='nav-expander'>
@@ -137,7 +138,7 @@
 						<div class="gallery" align="center">
 							<div class="thumbnails">
 								<!-- <img onmouseover="preview.src=msdotnet.src" name="msdotnet" src="img/msdotnet.jpg" alt="MelonySmith.net"/> -->
-								<img onmouseover="getElementById('preview').src=getElementById('msdotnet').src" id="msdotnet" src="img/msdotnet.jpg" alt="MelonySmith.net" />
+								<img onmouseover="getElementById('preview').src=getElementById('msdotnet').src" id="msdotnet" src="img/msdotnet.jpg" alt="MelonySmith.net Website Design" />
 								<!-- <img onmouseover="preview.src=hasidotcom.src" name="hasidotcom" src="img/hasidotcom.jpg" alt="HeartandSoulImages.com"/> -->
 								<img onmouseover="getElementById('preview').src=getElementById('hasidotcom').src" id="hasidotcom" src="img/hasidotcom.jpg" alt="HeartandSoulImages.com" />
 								<!-- <img onmouseover="preview.src=pcidotcom.src" name="pcidotcom" src="img/pcidotcom.jpg" alt="PlumCrazyImages.com"/> -->
@@ -146,7 +147,7 @@
 
 							<div class="preview" align="center">
 								<!-- <img name="preview" src="img/msdotnet.jpg" alt="MelonySmith.net"/> -->
-								<img id="preview" src="img/msdotnet.jpg" alt="MelonySmith.net" />
+								<img id="preview" src="img/msdotnet.jpg" alt="MelonySmith.net Website Design" />
 							</div>
 
 				</section>
@@ -290,6 +291,7 @@
 				<script type='text/javascript' src='js/bootstrap.js'></script>
 				<!-- smooth scroll -->
 				<script type='text/javascript' src='js/smooth-scroll.js'></script>
+				<!-- menu -->
 				<script type="text/javascript" src="js/app.js"></script>
 
 				<script>
