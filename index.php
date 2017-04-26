@@ -55,7 +55,6 @@
 				<a href='' class='menu-toggle' id='nav-expander'>
 					<i class='fa fa-bars'></i>
 				</a>
-
 				<!-- start menu -->
 				<nav class='menu'>
 					<a href='' class='close'>
@@ -352,7 +351,7 @@
 			  ga('send', 'pageview');
 			</script>
 			<!-- end google analyrics -->
-			
+
 		</body>
 		<!-- end body -->
 

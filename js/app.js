@@ -1,9 +1,7 @@
-'use strict';
-
- // open nav
+// open nav
  $('#nav-expander').on('click', function(e) {
-    e.preventDefault();
-    $('nav').toggleClass('nav-expanded');
+   e.preventDefault();
+   $('nav').toggleClass('nav-expanded');
 });
 
 // close nav
@@ -29,8 +27,6 @@ $('.menu  a').on('click', function(e) {
         $('.home-fullscreen').css('height', windowHeight);
     }
 }
-
-
 
 // initialize
 $(window).load(function () {
