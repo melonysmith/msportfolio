@@ -1,9 +1,14 @@
+/***** PROJECT GALLERY CSS *****/
+
+/* main */
 body {
 	background: #FAFAF0;
 	color: #292828;
-	margin-top: 20px;
+	margin: 0;
 	font-family: 'Raleway', sans-serif;
 }
+
+/* links */
 a {
 	color: #6AC9C5;
 }
@@ -11,19 +16,19 @@ a:hover {
 	color: #EA8E86;
 	text-decoration: underline;
 }
+
+/* thumbnails */
 .thumbnails img {
 	height: 80px;
 	border: 2px solid #6AC9C5;
 	margin: 0 10px 10px 0;
 }
-
 .thumbnails img:hover {
 	border: 2px solid #EA8E86;
 	cursor:pointer;
 }
 
+/* preview */
 .preview img {
-	border: 2px solid #292828;
-	padding: 2px;
 	width: 800px;
 }

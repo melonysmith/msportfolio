@@ -1,4 +1,6 @@
-/* body */
+/***** MAIN CSS *****/
+
+/* main */
 body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -35,7 +37,7 @@ section header {
     margin-bottom: 80px;
 }
 
-/* address span */
+/* address */
 address {
     margin-bottom: 70px;
     padding-top: 40px;
@@ -48,6 +50,7 @@ address span {
     color: #EA8E86;
 }
 
+/* top */
 .top {
   text-align: right;
   font-size: 2em;
@@ -171,6 +174,7 @@ a:focus {
     color: #EA8E86;
 }
 
+/* header info */
 .header-info {
     position: relative;
     top: 25%;
@@ -180,7 +184,7 @@ a:focus {
     color: #6AC9C5;
 }
 
-/* design, develop, & more */
+/* services */
 .service-item {
     text-align: center;
 }
@@ -213,7 +217,7 @@ a:focus {
     margin-bottom: 60px;
 }
 
-/* portfolio */
+/* projects */
 .project {
     border: 2px solid #292828;
     margin-bottom: 70px;
@@ -330,6 +334,8 @@ footer p {
     color: #FAFAF0;
     text-align: center;
 }
+
+/* social */
 ul.social-icons {
     list-style: none;
     margin-left: 40px;
