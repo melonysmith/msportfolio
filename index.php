@@ -1,4 +1,3 @@
-<!-- doctype -->
 <!DOCTYPE html>
 <!-- html language -->
 <html lang='en-us'>
@@ -340,7 +339,6 @@
 			<!-- menu, jumbotron js -->
 			<script type="text/javascript" src="js/app.js"></script>
 
-			<!-- google analytics -->
 			<script>
 			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -349,8 +347,8 @@
 
 			  ga('create', 'UA-97184369-1', 'auto');
 			  ga('send', 'pageview');
+
 			</script>
-			<!-- end google analyrics -->
 
 		</body>
 		<!-- end body -->

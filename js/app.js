@@ -1,22 +1,32 @@
-// open nav
+'use strict';
+
+/*
+ * A Design by GraphBerry
+ * Author: GraphBerry
+ * Author URL: http://graphberry.com
+ * License: http://graphberry.com/pages/license
+ */
+
+ // Open offsite navigation.
  $('#nav-expander').on('click', function(e) {
-   e.preventDefault();
-   $('nav').toggleClass('nav-expanded');
+    e.preventDefault();
+    $('nav').toggleClass('nav-expanded');
 });
 
-// close nav
+// Close offsite navigation.
  $('.menu .close').on('click', function(e) {
     e.preventDefault();
     $('nav').toggleClass('nav-expanded');
 });
 
-// close nav when link is clicked
+// Close offsite navigation after user click on an link in navigation.
 $('.menu  a').on('click', function(e) {
     e.preventDefault();
     $('nav').removeClass('nav-expanded');
 });
 
-// calculate full jumbotron width
+
+//Calculate full with of jumbotron.
  function homeFullScreen() {
 
     var homeSection = $('.home');
@@ -28,15 +38,15 @@ $('.menu  a').on('click', function(e) {
     }
 }
 
-// initialize
+//Initialization
 $(window).load(function () {
-    openProject();
     homeFullScreen();
 
     smoothScroll.init();
 });
 
-// window resize
+
+//What happen on window resize
 $(window).resize(function () {
     homeFullScreen();
 });

@@ -1,4 +1,3 @@
-<!-- start php session -->
 <?php session_start(); ?>
 
 <!-- doctype -->
