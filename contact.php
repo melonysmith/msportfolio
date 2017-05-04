@@ -1,5 +1,24 @@
 <?php session_start(); ?>
 
+<!-- Rollbar error tracking and monitoring -->
+<?php
+	// installs global error and exception handlers
+	Rollbar::init(array('access_token' => '9f0d7a17ae5d4fa3b813d4abac81823e'));
+
+	// Message at level 'info'
+	Rollbar::report_message('testing 123', 'info');
+
+	// Catch an exception and send it to Rollbar
+	try {
+	    throw new Exception('test exception');
+	} catch (Exception $e) {
+	    Rollbar::report_exception($e);
+	}
+
+	// Will also be reported by the exception handler
+	throw new Exception('test 2');
+?>
+
 <!-- doctype -->
 <!DOCTYPE html>
 <!-- html language -->
