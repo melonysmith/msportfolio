@@ -1,42 +1,55 @@
-/***** MAIN CSS *****/
-
+/* MAIN CSS STYLES */
 /* main */
 body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
-p,
-input,
-textarea {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
+/* headings */
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #EA8E86;
 }
-h2,
-h3 {
+h2 {
     text-transform: uppercase;
     color: #EA8E86;
     font-weight: bold;
 }
-p {
+h3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #EA8E86;
+    font-weight: bold;
+}
+/* paragraph text */
+p, input, textarea {
+    font-size: 1.5em;
     color: #292828;
 }
-label {
-  font-size: 1em;
+/* links */
+a {
+    color: #6AC9C5;
+    text-decoration: none;
 }
-
+a:hover,
+a:focus {
+    color: #EA8E86;
+    text-decoration: none;
+}
 /* section */
 section {
     background-color: #FAFAF0;
     padding: 80px 0;
 }
-section.darker {
-    background-color: #FAFAF0;
-}
 section header {
     text-align: center;
     margin-bottom: 80px;
 }
-
+.darker {
+    background-color: #FAFAF0;
+}
 /* address */
 address {
     margin-bottom: 70px;
@@ -49,17 +62,17 @@ address span {
     text-transform: uppercase;
     color: #EA8E86;
 }
-
 /* top */
 .top {
   text-align: right;
   font-size: 2em;
 }
-
 /* button */
 .btn {
     padding: 15px 30px;
     border-radius: 0;
+    -o-transition: border-color 0.4s, color 0.4s;
+    -moz-transition: border-color 0.4s, color 0.4s;
     -webkit-transition: border-color 0.4s, color 0.4s;
     transition: border-color 0.4s, color 0.4s;
 }
@@ -68,34 +81,19 @@ address span {
     border-width: 2px;
     color: #6AC9C5;
     border-color: #6AC9C5;
-    font-size: 1em;
     text-transform: uppercase;
 }
-.btn-primary:hover,
-.btn-primary:focus {
+.btn-primary:hover, .btn-primary:focus {
     background: #292828;
     color: #EA8E86;
     border-color: #6AC9C5;
 }
-
-/* links */
-a {
-    color: #6AC9C5;
-    text-decoration: none;
-}
-a:hover,
-a:focus {
-    color: #EA8E86;
-    text-decoration: none;
-}
-
 /* logo */
 .logo {
     position: absolute;
     left: 15px;
     top: 15px;
 }
-
 /* menu */
 .menu-toggle {
     position: fixed;
@@ -117,7 +115,7 @@ a:focus {
     transition: right 0.4s;
     font-size: 1.5em;
 }
-.menu.nav-expanded {
+.menu .nav-expanded {
     right: 0;
 }
 .menu .close {
@@ -125,23 +123,16 @@ a:focus {
     margin-right: 10px;
     margin-top: 10px;
 }
-.menu h3 {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
 .menu .nav {
     padding: 0;
 }
 .menu .nav > li > a {
     color: #FAFAF0;
 }
-.menu .nav > li > a:hover,
-.menu .nav > li > a:focus {
+.menu .nav > li > a:hover, .menu .nav > li > a:focus {
     background: transparent;
     color: #6AC9C5;
 }
-
 /* jumbotron */
 .jumbotron {
     text-align: center;
@@ -167,23 +158,17 @@ a:focus {
 .jumbotron .container {
     margin-top: 75%;
 }
-.jumbotron h1 {
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    font-size: 2em;
-    color: #EA8E86;
-}
-
 /* header info */
 .header-info {
     position: relative;
     top: 25%;
-    -webkit-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    -ms-translate: translateY(-50%);
+    -o-translate: translateY(-50%);
+    -moz-translate: translateY(-50%);
+    -webkit-translate: translateY(-50%);
     font-size: 1.5em;
     color: #6AC9C5;
 }
-
 /* services */
 .service-item {
     text-align: center;
@@ -195,8 +180,6 @@ a:focus {
 .service-item .icon {
     border: 2px #6AC9C5 solid;
     margin: 0 auto;
-    width: 110px;
-    height: 110px;
     display: block;
     margin-bottom: 60px;
     background-color: #292828;
@@ -213,17 +196,10 @@ a:focus {
 .service-item .icon:hover i {
     color: #EA8E86;
 }
-.service-item h3 {
-    margin-bottom: 60px;
-}
-
 /* projects */
 .project {
     border: 2px solid #292828;
     margin-bottom: 70px;
-}
-.project .project-info h3 {
-    margin-top: 50px;
 }
 .project .project-info p {
     padding-right: 30px;
@@ -250,7 +226,9 @@ a:focus {
     left: 15px;
     right: 15px;
     transition: all 0.4s;
-    background: rgba(0, 0, 0, 0.5);
+    background: #fff;
+    color: white;
+    color: rgba(0, 0, 0, 0.5);
     opacity: 0;
 }
 .portfolio-item .mask i {
@@ -261,8 +239,6 @@ a:focus {
     margin-left: -25px;
     padding-left: 4px;
     padding-top: 2px;
-    width: 50px;
-    height: 50px;
     color: #EA8E86;
     background-color: #292828;
     border: 2px #6AC9C5 solid;
@@ -274,7 +250,6 @@ a:focus {
     opacity: 1;
     color: #EA8E86;
 }
-
 /* form */
 form {
     margin-bottom: 70px;
@@ -282,17 +257,17 @@ form {
 .submit {
   padding: 15px 30px;
   border-radius: 0;
+  -o-transition: border-color 0.4s, color 0.4s;
+  -moz-transition: border-color 0.4s, color 0.4s;
   -webkit-transition: border-color 0.4s, color 0.4s;
   transition: border-color 0.4s, color 0.4s;
   background: #292828;
   border-width: 2px;
   color: #6AC9C5;
   border-color: #6AC9C5;
-  width: 100%;
   text-transform: uppercase;
 }
-.submit:hover,
-.submit:focus {
+.submit:hover, .submit:focus {
   background: #292828;
   color: #EA8E86;
   border-color: #6AC9C5;
@@ -308,8 +283,11 @@ form {
     border-radius: 0;
     background: #292828;
     border: 2px solid #6AC9C5;
+    -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
+    -o-transition: all 0.5;
+    -moz-transition: all 0.5;
     -webkit-transition: all 0.5;
     transition: all 0.5s;
 }
@@ -317,24 +295,23 @@ form {
     border: 2px solid #6AC9C5;
     background-color:#292828;
     color: #EA8E86;
+    -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
 /* footer */
 footer {
     padding: 75px 0;
     background-color: #292828;
     color: #FAFAF0;
 }
-footer a {
-    color: #6AC9C5;
-}
 footer p {
     color: #FAFAF0;
     text-align: center;
 }
-
+footer a {
+    color: #6AC9C5;
+}
 /* social */
 ul.social-icons {
     list-style: none;
@@ -362,7 +339,7 @@ ul.social-icons > li > a:hover {
     background-color: #292828;
 }
 
-/* media queries */
+/* MEDIA QUERIES */
 @media screen and (max-width: 734px) and (min-width: 525px) {
   .jumbotron .container {
       margin-top: 55%;

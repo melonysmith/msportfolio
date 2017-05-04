@@ -1,11 +1,11 @@
 {
-  "extends": "airbnb",
+  "extends": "eslint:recommended",
   "parser": "babel-eslint",
   "env": {
     "browser": true,
+    "commonjs": true.
     "node": true,
     "es6": true,
-    "mocha": true
   },
   "rules": {
     "valid-jsdoc": ["error", {
@@ -18,7 +18,8 @@
         "require": {
             "FunctionDeclaration": true,
             "MethodDefinition": true,
-            "ClassDeclaration": true
+            "ClassDeclaration": true,
+            "ArrowFunctionExpression": true
         }
     }]
   }
