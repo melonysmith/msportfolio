@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <!-- Rollbar error tracking and monitoring -->
 <?php
 	// installs global error and exception handlers
@@ -18,7 +16,10 @@
 	// Will also be reported by the exception handler
 	throw new Exception('test 2');
 ?>
+<!-- end Rollbar error tracking and monitoring -->
 
+<!-- doctype -->
+<!DOCTYPE html>
 <!-- html language -->
 <html lang='en-us'>
 
@@ -360,6 +361,7 @@
 			<script type="text/javascript" src="js/app.js"></script>
 
 			<script>
+			
 			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -370,8 +372,8 @@
 
 			</script>
 
-		</body>
-		<!-- end body -->
+	</body>
+	<!-- end body -->
 
-	</html>
-	<!-- end html -->
+</html>
+<!-- end html -->

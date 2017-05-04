@@ -18,6 +18,7 @@
 	// Will also be reported by the exception handler
 	throw new Exception('test 2');
 ?>
+<!-- end Rollbar error tracking and monitoring -->
 
 <!-- doctype -->
 <!DOCTYPE html>
