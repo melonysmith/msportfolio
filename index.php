@@ -9,7 +9,6 @@ $config = array(
     // optional - path to directory your code is in. used for linking stack traces.
     'root' => ''
 );
-Rollbar::init($config);
 ?>
 <!-- end Rollbar -->
 

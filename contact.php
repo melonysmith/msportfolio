@@ -83,6 +83,21 @@
 		<!-- return to site -->
     <a href='index.php'>Back to MelonySmith.net</a>
 
+		<!-- start Rollbar -->
+		<?php
+		use \Rollbar\Rollbar;
+
+		$config = array(
+				// required
+				'access_token' => '9f0d7a17ae5d4fa3b813d4abac81823e',
+				// optional - environment name. any string will do.
+				'environment' => 'production',
+				// optional - path to directory your code is in. used for linking stack traces.
+				'root' => ''
+		);
+		?>
+		<!-- end Rollbar -->
+
 	</body>
 	<!-- end body -->
 
