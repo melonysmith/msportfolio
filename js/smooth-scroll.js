@@ -1,11 +1,11 @@
-/*
+/**
  * smooth-scroll v5.3.7
  * Animate scrolling to anchor links, by Chris Ferdinandi.
  * http://github.com/cferdinandi/smooth-scroll
- *
+ * 
  * Free to use under the MIT License.
  * http://gomakethings.com/mit/
-*/
+ */
 
 (function (root, factory) {
 	if ( typeof define === 'function' && define.amd ) {

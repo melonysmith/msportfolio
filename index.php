@@ -1,24 +1,3 @@
-<!-- Rollbar error tracking and monitoring -->
-<?php
-	// installs global error and exception handlers
-	Rollbar::init(array('access_token' => '9f0d7a17ae5d4fa3b813d4abac81823e'));
-
-	// Message at level 'info'
-	Rollbar::report_message('testing 123', 'info');
-
-	// Catch an exception and send it to Rollbar
-	try {
-	    throw new Exception('test exception');
-	} catch (Exception $e) {
-	    Rollbar::report_exception($e);
-	}
-
-	// Will also be reported by the exception handler
-	throw new Exception('test 2');
-?>
-<!-- end Rollbar error tracking and monitoring -->
-
-<!-- doctype -->
 <!DOCTYPE html>
 <!-- html language -->
 <html lang='en-us'>
@@ -361,7 +340,6 @@
 			<script type="text/javascript" src="js/app.js"></script>
 
 			<script>
-			
 			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -372,8 +350,8 @@
 
 			</script>
 
-	</body>
-	<!-- end body -->
+		</body>
+		<!-- end body -->
 
-</html>
-<!-- end html -->
+	</html>
+	<!-- end html -->
