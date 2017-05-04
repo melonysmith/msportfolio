@@ -1,3 +1,19 @@
+<?php
+use \Rollbar\Rollbar;
+
+$config = array(
+    // required
+    'access_token' => '9f0d7a17ae5d4fa3b813d4abac81823e',
+    // optional - environment name. any string will do.
+    'environment' => 'production',
+    // optional - path to directory your code is in. used for linking stack traces.
+    'root' => ''
+);
+Rollbar::init($config);
+?>
+<!-- end Rollbar -->
+
+<!-- doctype -->
 <!DOCTYPE html>
 <!-- html language -->
 <html lang='en-us'>
