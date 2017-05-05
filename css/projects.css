@@ -1,4 +1,5 @@
-/* PROJECT PORTFOLIO CSS */
+/* PROJECTS CSS */
+
 /* main */
 body {
 	background: #FAFAF0;
@@ -16,6 +17,7 @@ a:hover {
 }
 /* thumbnails */
 .thumbnails img {
+	height: 80px;
 	border: 2px solid #6AC9C5;
 	margin: 0 10px 10px 0;
 }

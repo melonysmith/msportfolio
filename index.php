@@ -1,3 +1,9 @@
+<!-- doctype -->
+<!DOCTYPE html>
+<!-- html language -->
+<html lang='en-us'>
+
+<!-- Rollbar -->
 <?php
 use \Rollbar\Rollbar;
 
@@ -11,11 +17,6 @@ $config = array(
 );
 ?>
 <!-- end Rollbar -->
-
-<!-- doctype -->
-<!DOCTYPE html>
-<!-- html language -->
-<html lang='en-us'>
 
   <!-- start head -->
 	<head>
@@ -102,8 +103,8 @@ $config = array(
 				<div class='container'>
 					<div class='header-info'>
 						<!-- header and info -->
-						<h1>Melony Smith</h1>
-					  <h4>Front End Web Designer &amp; Developer</h4>
+						<h1>Melony Ann Smith</h1>
+					  <h2>Front End Web Designer &amp; Developer</h2>
 						<br />
 						<p>Soon-to-be graduate of Full Sail University with a Bachelor of
 				      Science degree in Web Design &amp; Development. Please contact me with any inquries or
@@ -177,7 +178,7 @@ $config = array(
 				<div class='container'>
 					<!-- header and info -->
 					<header>
-						<h2>Projects</h2>
+						<h3>Projects</h3>
 						<p>Here are some examples of projects I have worked on. I have tried to include
 							as much information as possible about the project.
 			      </p>
@@ -185,9 +186,9 @@ $config = array(
 					<!-- thumbnails -->
 					<div class="gallery" align="center">
 						<div class="thumbnails">
-							<img onmouseover="getElementById('preview').src=getElementById('msdotnet').src" id="msdotnet" src="img/msdotnet.jpg" alt="MelonySmith.net Website Design" />
-							<img onmouseover="getElementById('preview').src=getElementById('hasidotcom').src" id="hasidotcom" src="img/hasidotcom.jpg" alt="HeartandSoulImages.com" />
-							<img onmouseover="getElementById('preview').src=getElementById('pcidotcom').src" id="pcidotcom" src="img/pcidotcom.jpg" alt="PlumCrazyImages.com" />
+							<img onmouseover="getElementById('preview').src=this.src" id="msdotnet" src="img/msdotnet.jpg" alt="MelonySmith.net Website Design" />
+							<img onmouseover="getElementById('preview').src=this.src" id="hasidotcom" src="img/hasidotcom.jpg" alt="HeartandSoulImages.com" />
+							<img onmouseover="getElementById('preview').src=this.src" id="pcidotcom" src="img/pcidotcom.jpg" alt="PlumCrazyImages.com" />
 						</div><br/>
 						<!-- preview -->
 						<div class="preview" align="center">
@@ -201,7 +202,7 @@ $config = array(
 				<div class='container'>
 					<!-- header and info -->
 					<header>
-						<h2>Get in Touch</h2>
+						<h3>Get in Touch</h3>
 						<p>I would love to hear from you! If you have any inquiries regarding my services or
 				    even just a quick comment or hello, please don't hesitate to get in touch with me!
 			      </p>

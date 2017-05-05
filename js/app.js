@@ -1,37 +1,45 @@
-// open nav
-$('#nav-expander').on('click', (e) => {
-  e.preventDefault();
-  $('nav').toggleClass('nav-expanded');
+'use strict';
+
+ // Open offsite navigation.
+ $('#nav-expander').on('click', function(e) {
+    e.preventDefault();
+    $('nav').toggleClass('nav-expanded');
 });
 
-// close nav
-$('.menu .close').on('click', (e) => {
-  e.preventDefault();
-  $('nav').toggleClass('nav-expanded');
+// Close offsite navigation.
+ $('.menu .close').on('click', function(e) {
+    e.preventDefault();
+    $('nav').toggleClass('nav-expanded');
 });
 
-// close nav after item clicked
-$('.menu  a').on('click', (e) => {
-  e.preventDefault();
-  $('nav').removeClass('nav-expanded');
+// Close offsite navigation after user click on an link in navigation.
+$('.menu  a').on('click', function(e) {
+    e.preventDefault();
+    $('nav').removeClass('nav-expanded');
 });
 
-// calculate jumotron width
-homeFullScreen() => {
-  const homeSection = $('.home');
-  const windowHeight = $(window).outerHeight();
-  if (homeSection.hasClass('home-fullscreen')) {
-    $('.home-fullscreen').css('height', windowHeight);
-  }
+
+//Calculate full with of jumbotron.
+ function homeFullScreen() {
+
+    var homeSection = $('.home');
+    var windowHeight = $(window).outerHeight();
+
+    if (homeSection.hasClass('home-fullscreen')) {
+
+        $('.home-fullscreen').css('height', windowHeight);
+    }
 }
 
-// initialize
-$(window).load(() => {
-  homeFullScreen();
-  smoothScroll.init();
+//Initialization
+$(window).load(function () {
+    homeFullScreen();
+
+    smoothScroll.init();
 });
 
-// on window resize...
-$(window).resize(() => {
-  homeFullScreen();
+
+//What happen on window resize
+$(window).resize(function () {
+    homeFullScreen();
 });
