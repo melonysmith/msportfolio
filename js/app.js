@@ -1,25 +1,26 @@
 'use strict';
 
- // Open offsite navigation.
+/* eslint no-undef: 0 */
+
+ /* open nav */
  $('#nav-expander').on('click', function(e) {
     e.preventDefault();
     $('nav').toggleClass('nav-expanded');
 });
 
-// Close offsite navigation.
+/* close nav */
  $('.menu .close').on('click', function(e) {
     e.preventDefault();
     $('nav').toggleClass('nav-expanded');
 });
 
-// Close offsite navigation after user click on an link in navigation.
+/* close nav after menu link clickd */
 $('.menu  a').on('click', function(e) {
     e.preventDefault();
     $('nav').removeClass('nav-expanded');
 });
 
-
-//Calculate full with of jumbotron.
+/* calculate jumbotron width */
  function homeFullScreen() {
 
     var homeSection = $('.home');
@@ -31,15 +32,13 @@ $('.menu  a').on('click', function(e) {
     }
 }
 
-//Initialization
+/* initialize */
 $(window).load(function () {
     homeFullScreen();
-
     smoothScroll.init();
 });
 
-
-//What happen on window resize
+/* on window resize */
 $(window).resize(function () {
     homeFullScreen();
 });

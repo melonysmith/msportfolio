@@ -5,16 +5,16 @@
 
 <!-- Rollbar -->
 <?php
-use \Rollbar\Rollbar;
+  use \Rollbar\Rollbar;
 
-$config = array(
-    // required
-    'access_token' => '9f0d7a17ae5d4fa3b813d4abac81823e',
-    // optional - environment name. any string will do.
-    'environment' => 'production',
-    // optional - path to directory your code is in. used for linking stack traces.
-    'root' => ''
-);
+  $config = array(
+      // required
+      'access_token' => '9f0d7a17ae5d4fa3b813d4abac81823e',
+      // optional - environment name. any string will do.
+      'environment' => 'production',
+      // optional - path to directory your code is in. used for linking stack traces.
+      'root' => ''
+  );
 ?>
 <!-- end Rollbar -->
 
@@ -346,28 +346,28 @@ $config = array(
 			</footer>
 			<!-- end footer -->
 
-			<!-- jquery js -->
-			<script type='text/javascript' src='js/jquery-1.11.2.min.js'></script>
-			<!-- bootstrap js -->
-			<script type='text/javascript' src='js/bootstrap.js'></script>
-			<!-- smooth scroll js -->
-			<script type='text/javascript' src='js/smooth-scroll.js'></script>
-			<!-- menu, jumbotron js -->
-			<script type="text/javascript" src="js/app.js"></script>
+		<!-- jquery js -->
+		<script type='text/javascript' src='js/jquery-1.11.2.min.js'></script>
+		<!-- bootstrap js -->
+		<script type='text/javascript' src='js/bootstrap.js'></script>
+		<!-- smooth scroll js -->
+		<script type='text/javascript' src='js/smooth-scroll.js'></script>
+		<!-- menu, jumbotron js -->
+		<script type="text/javascript" src="js/app.js"></script>
 
-			<script>
-			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-			  ga('create', 'UA-97184369-1', 'auto');
-			  ga('send', 'pageview');
+		  ga('create', 'UA-97184369-1', 'auto');
+		  ga('send', 'pageview');
 
-			</script>
+		</script>
 
-		</body>
-		<!-- end body -->
+	</body>
+	<!-- end body -->
 
-	</html>
-	<!-- end html -->
+</html>
+<!-- end html -->

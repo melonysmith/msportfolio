@@ -18,11 +18,9 @@ a:hover {
 /* thumbnails */
 .thumbnails img {
 	height: 80px;
-	border: 2px solid #6AC9C5;
 	margin: 0 10px 10px 0;
 }
 .thumbnails img:hover {
-	border: 2px solid #EA8E86;
 	cursor:pointer;
 }
 /* preview */
