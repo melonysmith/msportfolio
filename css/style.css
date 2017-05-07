@@ -8,36 +8,20 @@ body {
 p,
 input,
 textarea {
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
 }
-/* headings */
-h1 {
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  font-size: 3em;
-  color: #ea8e86;
-  letter-spacing: 2px;
-  font-weight: bold;
-}
-h2 {
-    text-transform: uppercase;
-    color: #6ac9c5;
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-size: 2.5em;
-}
+h2,
 h3 {
-  margin-top: 50px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  color: #ea8e86;
-  font-size: 2em;
-  font-weight: bold;
-  letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #EA8E86;
+    font-weight: bold;
 }
-/* paragraphs */
 p {
     color: #292828;
+}
+label {
+    font-size: 1em;
 }
 
 /* section */
@@ -45,7 +29,7 @@ section {
     background-color: #FAFAF0;
     padding: 80px 0;
 }
-.darker {
+section.darker {
     background-color: #FAFAF0;
 }
 section header {
@@ -65,21 +49,17 @@ address span {
     text-transform: uppercase;
     color: #EA8E86;
 }
-address a:hover {
-  text-decoration: none;
-}
 
 /* top */
 .top {
   text-align: right;
+  font-size: 2em;
 }
 
 /* button */
 .btn {
     padding: 15px 30px;
     border-radius: 0;
-    -moz-transition: border-color 0.4s, color 0.4s;
-    -o-transition: border-color 0.4s, color 0.4s;
     -webkit-transition: border-color 0.4s, color 0.4s;
     transition: border-color 0.4s, color 0.4s;
 }
@@ -88,6 +68,7 @@ address a:hover {
     border-width: 2px;
     color: #6AC9C5;
     border-color: #6AC9C5;
+    font-size: 1em;
     text-transform: uppercase;
 }
 .btn-primary:hover,
@@ -136,13 +117,18 @@ a:focus {
     transition: right 0.4s;
     font-size: 1.5em;
 }
-.menu .nav-expanded {
+.menu.nav-expanded {
     right: 0;
 }
 .menu .close {
     color: #FAFAF0;
     margin-right: 10px;
     margin-top: 10px;
+}
+.menu h3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .menu .nav {
     padding: 0;
@@ -164,7 +150,6 @@ a:focus {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #EA8E86;
 }
 .jumbotron .mask {
     position: absolute;
@@ -181,15 +166,20 @@ a:focus {
 .jumbotron .container {
     margin-top: 75%;
 }
+.jumbotron h1 {
+    margin-top: 0;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #EA8E86;
+}
 
 /* header info */
 .header-info {
     position: relative;
     top: 25%;
-    -moz-traslate: translateY(-50%);
-    -o-translate: translateY(-50%);
-    -ms-translate: translateY(-50%);
-    -webkit-translate: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     font-size: 1.5em;
     color: #6AC9C5;
 }
@@ -223,11 +213,17 @@ a:focus {
 .service-item .icon:hover i {
     color: #EA8E86;
 }
+.service-item h3 {
+    margin-bottom: 60px;
+}
 
 /* projects */
 .project {
     border: 2px solid #292828;
     margin-bottom: 70px;
+}
+.project .project-info h3 {
+    margin-top: 50px;
 }
 .project .project-info p {
     padding-right: 30px;
@@ -254,7 +250,6 @@ a:focus {
     left: 15px;
     right: 15px;
     transition: all 0.4s;
-    background: #000000;
     background: rgba(0, 0, 0, 0.5);
     opacity: 0;
 }
@@ -270,6 +265,7 @@ a:focus {
     height: 50px;
     color: #EA8E86;
     background-color: #292828;
+    border: 2px #6AC9C5 solid;
     margin-bottom: 10px;
     text-align: center;
     line-height: 40px;
@@ -287,8 +283,6 @@ form {
   padding: 15px 30px;
   border-radius: 0;
   -webkit-transition: border-color 0.4s, color 0.4s;
-  -moz-transition: border-color 0.4s, color 0.4s;
-  -o-transition: border-color 0.4s, color 0.4s;
   transition: border-color 0.4s, color 0.4s;
   background: #292828;
   border-width: 2px;
@@ -309,23 +303,20 @@ form {
 }
 .form-control {
     padding: 17px 25px;
+    font-size: 1em;
     height: auto;
     border-radius: 0;
     background: #292828;
     border: 2px solid #6AC9C5;
     -webkit-box-shadow: none;
-    -moz-box-shadow: none;
     box-shadow: none;
     -webkit-transition: all 0.5;
-    -moz-transition: all 0.5;
-    -o-transition: all 0.5;
     transition: all 0.5s;
 }
 .form-control:focus {
     border: 2px solid #6AC9C5;
     background-color:#292828;
     color: #EA8E86;
-    -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -338,10 +329,6 @@ footer {
 }
 footer a {
     color: #6AC9C5;
-    text-decoration: none;
-}
-footer a:hover {
-  text-decoration: none;
 }
 footer p {
     color: #FAFAF0;
@@ -375,7 +362,7 @@ ul.social-icons > li > a:hover {
     background-color: #292828;
 }
 
-/* MEDIA QUERIES */
+/* media queries */
 @media screen and (max-width: 734px) and (min-width: 525px) {
   .jumbotron .container {
       margin-top: 55%;
