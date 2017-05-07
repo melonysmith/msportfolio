@@ -11,8 +11,21 @@ textarea {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
 }
+<<<<<<< HEAD
 h2,
 h3 {
+=======
+/* headings */
+.header-info h1 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-size: 3em;
+  color: #ea8e86;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+h2 {
+>>>>>>> origin/master
     text-transform: uppercase;
     color: #EA8E86;
     font-weight: bold;
