@@ -11,7 +11,7 @@ textarea {
     font-size: 1.5em;
 }
 /* headings */
-h1 {
+.header-info h1 {
   text-transform: uppercase;
   margin-bottom: 30px;
   font-size: 3em;
