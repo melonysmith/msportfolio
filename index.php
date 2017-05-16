@@ -21,12 +21,12 @@
   <!-- start head -->
 	<head>
 			<!-- charset -->
-		  <meta charset="utf-8">
+		  <meta charset='utf-8'>
 			<!-- title -->
-      <title>Melony Smith :: Web Designer &amp; Developer</title>
+      <title>Melony Smith :: Front End Design &amp; Development</title>
 			<!-- meta -->
-      <meta name="description" content="Online portfolio for Web Designer and Developer Melony Smith. Affordable, customized front end web design and development services.">
-      <meta name="keywords" content="website design, website development, front end web, web designer, graphic designer, web development, logo creation, branding">
+      <meta name='description' content='Online portfolio for Front End Web Designer and Developer Melony Smith. Affordable, customized front end web design and development services.'>
+      <meta name='keywords' content='website design, website development, front end web, web designer, graphic designer, web development, logo creation, branding'>
 			<meta name='viewport' content='width=device-width, initial-scale=1.0' />
 			<!-- font -->
 			<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
@@ -41,29 +41,29 @@
 	<!-- start body -->
   <body>
 
-		  <!-- facebook js sdk for "like" and "share" buttons -->
-			<div id="fb-root"></div>
-				<script>(function(d, s, id) {
-				  var js, fjs = d.getElementsByTagName(s)[0];
-				  if (d.getElementById(id)) return;
-				  js = d.createElement(s); js.id = id;
-				  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=358573637819131";
-				  fjs.parentNode.insertBefore(js, fjs);
-				  }(document, 'script', 'facebook-jssdk'));
-				</script>
+	  <!-- facebook js sdk for "like" and "share" buttons -->
+		<div id='fb-root'></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=358573637819131';
+			  fjs.parentNode.insertBefore(js, fjs);
+			  }(document, 'script', 'facebook-jssdk'));
+			</script>
 
-			<!-- top -->
-			<a name="top"></a>
+		<!-- top -->
+		<a name='top'></a>
 
-			<!-- home -->
-			<div class='jumbotron home home-fullscreen' id='home'>
+  		<!-- home -->
+  		<div class='jumbotron home home-fullscreen' id='home'>
 
 				<!-- mask -->
 				<div class='mask'></div>
 
 				<!-- logo -->
 				<a href='http://www.melonysmith.net' class='logo'>
-					<img src='img/logo.png' alt='Melony Smith Website Design'>
+					<img class='img-responsive' src='img/logo.png' alt='Melony Smith Website Design'>
 				</a>
 
 				<!-- hamburger -->
@@ -91,11 +91,11 @@
 							<a data-scroll href='#contact'>Contact</a>
 						</li>
 					</ul>
-					<div class="fb-like" data-href="https://www.facebook.com/msdotnet/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
-					<div class="fb-share-button" data-href="http://melonysmith.net" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmelonysmith.net%2F&amp;src=sdkpreparse">Share</a></div>
+					<div class='fb-like' data-href='https://www.facebook.com/msdotnet/' data-layout='button' data-action='like' data-size='small' data-show-faces='false' data-share='false'></div>
+					<div class='fb-share-button' data-href='http://melonysmith.net' data-layout='button' data-size='small' data-mobile-iframe='true'><a class='fb-xfbml-parse-ignore' target='_blank' href='https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmelonysmith.net%2F&amp;src=sdkpreparse'>Share</a></div>
 					<br /><br />
-					<a href="https://twitter.com/melsdotnet" class="twitter-follow-button" data-show-count="false">Follow</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-					<a href="http://melonysmith.net" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<a href='https://twitter.com/melsdotnet' class='twitter-follow-button' data-show-count='false'>Follow</a><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script>
+					<a href='http://melonysmith.net' class='twitter-share-button' data-show-count='false'>Tweet</a><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script>
 				</nav>
 				<!-- end menu -->
 
@@ -184,16 +184,31 @@
 			      </p>
 					</header>
 					<!-- thumbnails -->
-					<div class="gallery" align="center">
-						<div class="thumbnails">
-							<img onmouseover="getElementById('preview').src=this.src" id="msdotnet" src="img/msdotnet.jpg" alt="MelonySmith.net Website Design" />
-							<img onmouseover="getElementById('preview').src=this.src" id="hasidotcom" src="img/hasidotcom.jpg" alt="HeartandSoulImages.com" />
-							<img onmouseover="getElementById('preview').src=this.src" id="pcidotcom" src="img/pcidotcom.jpg" alt="PlumCrazyImages.com" />
-						</div><br/>
+					<div class='gallery' align='center'>
+						<div class='thumbnails'>
+              <figcaption>
+                <a href='http://melonysmith.net' target='_blank'>MelonySmith.net</a>
+                <br />
+                HTML5, CSS3, Javascript, PHP
+              </figcaption>
+							 <img onmouseover="getElementById('preview').src=this.src" id='msdotnet' src='img/msdotnet.jpg' alt='MelonySmith.net Website Design' />
+              <figcaption><a href='http://heartandsoulimages.com' target='_blank'>Heart and Soul Images</a>
+                <br />
+                HTML5, CSS3, Javascript
+              </figcaption>
+              <img onmouseover="getElementById('preview').src=this.src" id='hasidotcom' src='img/hasidotcom.jpg' alt="HeartandSoulImages.com" />
+              <figcaption>
+                <a href='http://plumcrazyimages.com' target='_blank'>Plum Crazy Images</a>
+                <br />
+                HTML5, CSS3 customization of predesigned template
+              </figcaption>
+              <img onmouseover="getElementById('preview').src=this.src" id='pcidotcom' src='img/pcidotcom.jpg' alt='PlumCrazyImages.com' />
+            </div><br/>
 						<!-- preview -->
-						<div class="preview" align="center">
-							<img id="preview" src="img/msdotnet.jpg" alt="MelonySmith.net Website Design" />
+						<div class='preview' align='center'>
+							<img class='img-responsive' id='preview' src='img/msdotnet.jpg' alt='MelonySmith.net Website Design' />
 						</div>
+         </div>
 			</section>
 			<!-- end projects -->
 
@@ -217,7 +232,7 @@
 					?>
 					<!-- end php -->
 					<!-- form action: post -->
-					<form action="contact.php" method="post" />
+					<form action='contact.php' method='post' />
 					<!-- start form -->
 					<div class='row'>
 						<div class='col-md-8'>
@@ -353,7 +368,7 @@
 		<!-- smooth scroll js -->
 		<script type='text/javascript' src='js/smooth-scroll.js'></script>
 		<!-- menu, jumbotron js -->
-		<script type="text/javascript" src="js/app.js"></script>
+		<script type='text/javascript' src='js/app.js'></script>
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
