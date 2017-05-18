@@ -293,7 +293,9 @@
 						<!-- footer: copyright -->
 						<div class='col-md-8'>
 							<p>Original Content &copy; 2017
+                <br />
 								<a href='http://melonysmith.net'>MelonySmith.net</a>
+                <br />
                 V 1.0: Launch
 							</p>
 						</div>

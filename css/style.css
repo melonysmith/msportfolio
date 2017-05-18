@@ -43,6 +43,7 @@ h3 {
 p {
   color: #292828;
   font-size: 1.500em;
+  text-align: justify;
 }
 
 /* label */
@@ -114,7 +115,7 @@ a {
   color: #6AC9C5;
   text-decoration: none;
   cursor: help;
-  font-size: 1.500em;
+  font-size: 1.000em;
 }
 
 a:hover,
@@ -126,8 +127,8 @@ a:focus {
 /* menu */
 .menu-toggle {
   position: fixed;
-  right: 1.333em;
-  top: 0.333em;
+  right: 0.500em;
+  top: 0.100em;
   color: #6AC9C5;
   font-size: 4.000em;
 }
@@ -157,7 +158,7 @@ a:focus {
 }
 
 .menu h3 {
-  margin-top: 3.333em;
+  margin-top: 1.500em;
   margin-bottom: 0.667em;
   text-transform: uppercase;
 }
@@ -169,6 +170,7 @@ a:focus {
 .menu .nav > li > a {
   color: #FAFAF0;
   margin-bottom: 1.333em;
+  font-size: 1.2500em;
 }
 
 .menu .nav > li > a:hover,
@@ -182,7 +184,7 @@ a:focus {
   text-align: center;
   position: relative;
   background: url('../img/bg.jpg');
-  max-height: 65em;
+  max-height: 67em;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,6 +202,7 @@ a:focus {
 
 .jumbotron p {
   color: #FAFAF0;
+  text-align: center;
 }
 
 .jumbotron .container {
@@ -256,7 +259,7 @@ a:focus {
 }
 
 .service-item h3 {
-  margin-bottom: 4.000em;
+  margin-bottom: 2.000em;
 }
 
 /* projects */
@@ -401,6 +404,7 @@ footer a {
 footer p {
   color: #FAFAF0;
   text-align: center;
+  padding-bottom: 1.000em;
 }
 
 /* social */
@@ -436,12 +440,12 @@ ul.social-icons > li > a:hover {
 /* media queries */
 @media screen and (max-width: 614px) and (min-width: 360px) {
   .jumbotron .container {
-    padding-top: 35%;
+    padding-top: 5%;
   }
 
   h1 {
     font-size: 2.000em;
-    margin-bottom: 1.333em;
+    margin-bottom: 1em;
     letter-spacing: 0.067em;
   }
 
