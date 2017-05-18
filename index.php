@@ -294,6 +294,7 @@
 						<div class='col-md-8'>
 							<p>Original Content &copy; 2017
 								<a href='http://melonysmith.net'>MelonySmith.net</a>
+                V 1.0: Launch
 							</p>
 						</div>
 						<!-- footer: social media -->

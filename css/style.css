@@ -17,7 +17,7 @@ body {
 h1 {
   margin-top: 0;
   text-transform: uppercase;
-  margin-bottom: 2.000em;
+  margin-bottom: 0.375em;
   font-size: 2.500em;
   color: #6ac9c5;
   letter-spacing: 0.200em;
@@ -182,6 +182,7 @@ a:focus {
   text-align: center;
   position: relative;
   background: url('../img/bg.jpg');
+  max-height: 65em;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -202,7 +203,7 @@ a:focus {
 }
 
 .jumbotron .container {
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 /* header info */
@@ -236,13 +237,13 @@ a:focus {
 }
 
 .service-item .icon {
-  border: 2px #6AC9C5 solid;
+  border: 0.133em #6AC9C5 solid;
 }
 
 .service-item .icon i {
-  line-height: 110px;
+  line-height: 1.750em;
   color: #6AC9C5;
-  font-size: 4em;
+  font-size: 4.000em;
 }
 
 .service-item .icon:hover {
@@ -462,8 +463,8 @@ ul.social-icons > li > a:hover {
   }
 }
 
-@media screen and (max-width: 799px) and (min-width: 615px) {
+@media screen and (max-width: 799px) {
   .jumbotron .container {
-    margin-top: 35%;
+    margin-top: 4.5em;
   }
 }
