@@ -5,22 +5,31 @@
 <!-- html language -->
 <html lang='en-us'>
 
-	<!-- start head -->
-	<head>
+<!-- start head -->
+<head>
 		<!-- charset -->
 		<meta charset='utf-8'>
 		<!-- title -->
-		<title>Melony Smith: Web Designer &amp; Developer</title>
+		<title>Melony Smith: Front End Design &amp; Development</title>
 		<!-- meta -->
-		<meta name='description' content='Online portfolio for Web Designer and Developer Melony Smith. Affordable, customized front end web design and development services.'>
+		<meta name='description' content='Online portfolio for Front End Web Designer and Developer Melony Smith. Affordable, customized front end web design and development services.'>
 		<meta name='keywords' content='website design, website development, front end web, web designer, graphic designer, web development, logo creation, branding'>
 		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+		<!-- favicon -->
+		<link rel="icon" type="image/png" href="http://heartandsoulimages.com/msportfolio/favicon.png">
 		<!-- font -->
 		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
 		<!-- CSS -->
+		<link rel='stylesheet' type='text/css' href='css/bootstrap.css' />
+		<link rel='stylesheet' type='text/css' href='css/font-awesome.css' />
 		<link rel='stylesheet' type='text/css' href='css/style.css' />
-	</head>
-	<!-- end head -->
+		<link rel='stylesheet' type='text/css' href='css/projects.css' />
+		<!-- Google verification -->
+		<meta name="google-site-verification" content="b4_LfFTDthIlDMOvr6_UwkzUOVJpn5hd0s-zXitd_5A" />
+		<!-- Bing verification -->
+		<meta name="msvalidate.01" content="AA8C45CC7BE62398DD9789FCDC60C519" />
+</head>
+<!-- end head -->
 
   <!-- start body -->
 	<body>
