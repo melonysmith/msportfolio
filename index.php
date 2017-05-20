@@ -3,31 +3,18 @@
 <!-- html language -->
 <html lang='en-us'>
 
-<!-- Rollbar -->
-<?php
-  use \Rollbar\Rollbar;
-
-  $config = array(
-      // required
-      'access_token' => '9f0d7a17ae5d4fa3b813d4abac81823e',
-      // optional - environment name. any string will do.
-      'environment' => 'production',
-      // optional - path to directory your code is in. used for linking stack traces.
-      'root' => ''
-  );
-?>
-<!-- end Rollbar -->
-
   <!-- start head -->
 	<head>
 			<!-- charset -->
 		  <meta charset='utf-8'>
 			<!-- title -->
-      <title>Melony Smith :: Front End Design &amp; Development</title>
+      <title>Melony Smith: Front End Design &amp; Development</title>
 			<!-- meta -->
       <meta name='description' content='Online portfolio for Front End Web Designer and Developer Melony Smith. Affordable, customized front end web design and development services.'>
       <meta name='keywords' content='website design, website development, front end web, web designer, graphic designer, web development, logo creation, branding'>
 			<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+      <!-- favicon -->
+      <link rel="icon" type="image/png" href="http://heartandsoulimages.com/msportfolio/favicon.png">
 			<!-- font -->
 			<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css' />
 			<!-- CSS -->
@@ -35,6 +22,10 @@
 			<link rel='stylesheet' type='text/css' href='css/font-awesome.css' />
 			<link rel='stylesheet' type='text/css' href='css/style.css' />
 			<link rel='stylesheet' type='text/css' href='css/projects.css' />
+      <!-- Google verification -->
+      <meta name="google-site-verification" content="b4_LfFTDthIlDMOvr6_UwkzUOVJpn5hd0s-zXitd_5A" />
+      <!-- Bing verification -->
+      <meta name="msvalidate.01" content="AA8C45CC7BE62398DD9789FCDC60C519" />
 	</head>
 	<!-- end head -->
 
@@ -309,18 +300,30 @@
 										<i class='fa fa-android'></i>
 									</a>
 								</li>
+                <!-- linkedin -->
+                <li>
+                  <a href='https://www.linkedin.com/in/melonysmith/' target='_blank'>
+                    <i class='fa fa-linkedin'></i>
+                  </a>
+                </li>
+                <!-- github -->
+                <li>
+                  <a href='https://github.com/melonysmith' target='_blank'>
+                    <i class='fa fa-github'></i>
+                  </a>
+                </li>
 								<!-- facebook -->
 								<li>
 									<a href='https://www.facebook.com/msdotnet' target='_blank'>
 										<i class='fa fa-facebook'></i>
 									</a>
 								</li>
-								<!-- github -->
-								<li>
-									<a href='https://github.com/melonysmith' target='_blank'>
-										<i class='fa fa-github'></i>
-									</a>
-								</li>
+                <!-- twitter -->
+                <li>
+                  <a href='https://twitter.com/melsdotnet' target='_blank'>
+                    <i class='fa fa-twitter'></i>
+                  </a>
+                </li>
 								<!-- google+ -->
 								<li>
 									<a href='https://plus.google.com/u/0/+MelonySmith3xgem' target='_blank'>
@@ -343,18 +346,6 @@
 								<li>
 									<a href='https://www.instagram.com/mrsmelonysmith' target='_blank'>
 										<i class='fa fa-instagram'></i>
-									</a>
-								</li>
-								<!-- linkedin -->
-								<li>
-									<a href='https://www.linkedin.com/in/melonysmith/' target='_blank'>
-										<i class='fa fa-linkedin'></i>
-									</a>
-								</li>
-								<!-- twitter -->
-								<li>
-									<a href='https://twitter.com/melsdotnet' target='_blank'>
-										<i class='fa fa-twitter'></i>
 									</a>
 								</li>
 							</ul><!-- end social icons -->
@@ -383,6 +374,21 @@
 		  ga('send', 'pageview');
 
 		</script>
+
+    <!-- Rollbar -->
+    <?php
+      use \Rollbar\Rollbar;
+
+      $config = array(
+          // required
+          'access_token' => '9f0d7a17ae5d4fa3b813d4abac81823e',
+          // optional - environment name. any string will do.
+          'environment' => 'production',
+          // optional - path to directory your code is in. used for linking stack traces.
+          'root' => ''
+      );
+    ?>
+    <!-- end Rollbar -->
 
 	</body>
 	<!-- end body -->

@@ -7,3 +7,5 @@ abstract class Level {
     const INFO = 'info';
     const DEBUG = 'debug';
 }
+
+?>

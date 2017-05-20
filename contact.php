@@ -10,7 +10,7 @@
 		<!-- charset -->
 		<meta charset='utf-8'>
 		<!-- title -->
-		<title>Melony Smith :: Web Designer &amp; Developer</title>
+		<title>Melony Smith: Web Designer &amp; Developer</title>
 		<!-- meta -->
 		<meta name='description' content='Online portfolio for Web Designer and Developer Melony Smith. Affordable, customized front end web design and development services.'>
 		<meta name='keywords' content='website design, website development, front end web, web designer, graphic designer, web development, logo creation, branding'>
@@ -90,9 +90,9 @@
 		$config = array(
 				// required
 				'access_token' => '9f0d7a17ae5d4fa3b813d4abac81823e',
-				// optional - environment name. any string will do.
+				// optional - environment name
 				'environment' => 'production',
-				// optional - path to directory your code is in. used for linking stack traces.
+				// optional - path to directory code is in
 				'root' => ''
 		);
 	?>

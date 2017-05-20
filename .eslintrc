@@ -7,21 +7,5 @@
     "node": true,
     "es6": true,
     "jquery": true
-  },
-  "rules": {
-    "valid-jsdoc": ["error", {
-      "requireReturn": false,
-      "requireReturnType": false,
-      "requireParamDescription": false,
-      "requireReturnDescription": false
-    }],
-    "require-jsdoc": ["error", {
-        "require": {
-            "FunctionDeclaration": true,
-            "MethodDefinition": false,
-            "ClassDeclaration": false,
-            "ArrowFunctionExpression": false
-        }
-    }]
   }
 }
