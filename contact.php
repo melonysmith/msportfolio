@@ -61,7 +61,7 @@
 		// contact form input to be sent via email
 		$from = 'From: ' . $name . ' <' . $email . '>';
 		$to = 'smith.melonya@gmail.com';
-		$subject = 'New contact form message';
+		$subject = 'MelonySmith.net';
 		$content = $name . ' has sent you a message: ' . $message;
 		// message sent: success
 		$success = '<h3>Thank you! Your message has been sent and I will be in touch soon!</h3>';
