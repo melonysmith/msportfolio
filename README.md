@@ -5,7 +5,7 @@ These are the files for my personal portfolio website.
 
 ## DEPLOYMENT
 ### Information and Dependencies
-Server: Apache
+Server Application: Apache
 
 Dependencies: New Relic APM, papertrail, Rollbar
 
