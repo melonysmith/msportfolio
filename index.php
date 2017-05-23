@@ -22,6 +22,7 @@
 			<link rel='stylesheet' type='text/css' href='css/font-awesome.css' />
 			<link rel='stylesheet' type='text/css' href='css/style.css' />
 			<link rel='stylesheet' type='text/css' href='css/projects.css' />
+			<link rel='stylesheet' type='text/css' href='css/form.css' />
       <!-- Google verification -->
       <meta name="google-site-verification" content="b4_LfFTDthIlDMOvr6_UwkzUOVJpn5hd0s-zXitd_5A" />
       <!-- Bing verification -->
@@ -213,45 +214,36 @@
 				    even just a quick comment or hello, please don't hesitate to get in touch with me!
 			      </p>
 					</header>
-					<!-- php: if error sending message... -->
-					<?php
-						if (!empty($error)) {
-						echo '<p class="error"><strong>Your message was NOT sent<br/> The following error(s) returned:</strong><br/>' . $error . '</p>';
-						} elseif (!empty($success)) {
-						echo $success;
-						}
-					?>
-					<!-- end php -->
-					<!-- form action: post -->
-					<form action='contact.php' method='post' />
+
 					<!-- start form -->
 					<div class='row'>
 						<div class='col-md-8'>
-							<form class='row'>
-								<!-- form: visitor name -->
-								<div class='form-group col-md-6'>
-									<label>Your Name:</label>
-									<input type='text' name='name' class='form-control' value='<?php if($_POST['name']) { echo $_POST['name']; } ?>' />
-								</div>
-								<!-- form: visitor email -->
-								<div class='form-group col-md-6'>
-									<label>Your Email Address:</label>
-									<input type='text' name='email' class='form-control' value='<?php if($_POST['email']) { echo $_POST['email']; } ?>' />
-								</div>
-								<!-- form: visitor message -->
-								<div class='form-group col-md-12'>
-									<label>Your Message:</label>
-									<textarea name='message' class='form-control' rows='10' cols='20'><?php if($_POST['message']) { echo $_POST['message']; } ?></textarea>
-								</div>
-								<!-- form: send button -->
-								<div class='form-group col-md-12'>
-									<input type='submit' class='submit' name='submit' value='Send Your Message' />
-								</div>
-							</form>
+							<form id="contact" name="contact" method="post" novalidate="novalidate">
+					        <fieldset>
+					            <label for="name" id="name">Name<span class="required"> required</span>
+					            </label>
+					            <input type="text" name="name" id="name" size="40" value="" required="">
+					            <label for="email" id="email">Email<span class="required"> required</span>
+					            </label>
+					            <input type="text" name="email" id="email" size="40" value="" required="">
+					            <label for="phone" id="phone">Phone</label>
+					            <input type="text" name="phone" id="phone" size="40" value="">
+					            <label for="Message" id="message">Message<span class="required"> required</span>
+					            </label>
+					            <textarea name="message" id="message" required=""></textarea>
+					            <label for="Answer" id="answer">The cow says "_ _ _".<span class="required"> required</span>
+					            </label>
+					            <input type="text" name="answer" value="" size="40" required=""><br />
+
+					            <div class="form-group col-md-12">
+					                <input type='submit' class='submit' name='submit' value='Send' />
+					            </div>
+					        </fieldset>
+					    </form>
 							<!-- end form -->
 						</div> <!-- closes form div -->
 						<!-- start side info (address) -->
-						<div class='col-md-3 col-md-offset-1'>
+						<div class='col-md-3 col-md-pull-1'>
 							<!-- address: location -->
 							<address>
 								<span>Location</span>
@@ -356,13 +348,20 @@
 			<!-- end footer -->
 
 		<!-- jquery js -->
-		<script type='text/javascript' src='js/jquery-1.11.2.min.js'></script>
+		<script type='text/javascript' src="js/jquery-1.11.2.min.js"></script>
 		<!-- bootstrap js -->
 		<script type='text/javascript' src='js/bootstrap.js'></script>
 		<!-- smooth scroll js -->
 		<script type='text/javascript' src='js/smooth-scroll.js'></script>
+		<!-- jQuery form plugin -->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+		<!-- jQuery validate -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+
 		<!-- menu, jumbotron js -->
 		<script type='text/javascript' src='js/app.js'></script>
+		<!-- form js -->
+		<script type="text/javascript" src="js/form.js"></script>
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

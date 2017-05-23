@@ -1,0 +1,143 @@
+    form {
+        margin: 0
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 0.200em;
+        font-family: "Raleway", sans-serif;
+        font-size: 1.250em;
+        line-height: 1.250;
+        color: #292828;
+    }
+
+    form label.error {
+        margin-top: -1em;
+        margin-bottom: 1em;
+        font-size: 1.250em;
+        line-height: 1.250em;
+        color: #e11c57
+    }
+
+    form input[type="text"],
+    form input[type="password"],
+    form input[type="date"],
+    form input[type="datetime"],
+    form input[type="datetime-local"],
+    form input[type="month"],
+    form input[type="week"],
+    form input[type="email"],
+    form input[type="number"],
+    form input[type="search"],
+    form input[type="tel"],
+    form input[type="time"],
+    form input[type="url"],
+    form textarea {
+        margin-bottom: 1em;
+        font-family: "Raleway", sans-serif;
+        font-size: 1.000em;
+        line-height: 2.000em;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        background: #292828;
+        border: 2px solid #6ac9c5;
+        color: #6ac9c5
+    }
+
+    form input[type="text"]:focus,
+    form input[type="password"]:focus,
+    form input[type="date"]:focus,
+    form input[type="datetime"]:focus,
+    form input[type="datetime-local"]:focus,
+    form input[type="month"]:focus,
+    form input[type="week"]:focus,
+    form input[type="email"]:focus,
+    form input[type="number"]:focus,
+    form input[type="search"]:focus,
+    form input[type="tel"]:focus,
+    form input[type="time"]:focus,
+    form input[type="url"]:focus,
+    form textarea:focus {
+        border-color: #ea8e86;
+        background: #292828;
+        color: #ea8e86;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none
+    }
+
+    form input[type="text"][disabled],
+    form input[type="password"][disabled],
+    form input[type="date"][disabled],
+    form input[type="datetime"][disabled],
+    form input[type="datetime-local"][disabled],
+    form input[type="month"][disabled],
+    form input[type="week"][disabled],
+    form input[type="email"][disabled],
+    form input[type="number"][disabled],
+    form input[type="search"][disabled],
+    form input[type="tel"][disabled],
+    form input[type="time"][disabled],
+    form input[type="url"][disabled],
+    form textarea[disabled] {
+        background: #292828;
+        color: #ea8e86
+    }
+
+    form input[type="text"].error,
+    form input[type="password"].error,
+    form input[type="date"].error,
+    form input[type="datetime"].error,
+    form input[type="datetime-local"].error,
+    form input[type="month"].error,
+    form input[type="week"].error,
+    form input[type="email"].error,
+    form input[type="number"].error,
+    form input[type="search"].error,
+    form input[type="tel"].error,
+    form input[type="time"].error,
+    form input[type="url"].error,
+    form textarea.error {
+        background: #FAFAF0;
+        border-color: #e11c57
+    }
+
+    fieldset {
+        border: 0px;
+        margin: 0;
+        padding: 0
+    }
+
+    .required {
+        color: #e11c57;
+        font-size: 0.500em;
+    }
+
+    #success,
+    #error {
+        display: none
+    }
+
+    #success span,
+    #error span {
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%
+    }
+
+    #success span p,
+    #error span p {
+        margin-top: 2em
+    }
+
+    #success span p {
+        color: #ea8e86;
+        font-size: 1.500em
+    }
+
+    #error span p {
+        color: #e11c57;
+        font-size:1.500em;
+    }
