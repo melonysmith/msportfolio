@@ -98,7 +98,7 @@
 						<h1>Melony Ann Smith</h1>
 					  <h2>Front End Web Designer &amp; Developer</h2>
 						<br />
-						<p>Soon-to-be graduate of Full Sail University with a Bachelor of
+						<p>Graduate of Full Sail University with a Bachelor of
 				      Science degree in Web Design &amp; Development. Please contact me with any inquries or
 				      comments you may have!
 			      </p>
